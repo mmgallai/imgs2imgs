@@ -4,6 +4,7 @@ Training-free multiview editing with localized control + cross-view consistency.
 
 **Authors:** Mohamed Gallai, Abby Stylianou  
 **Venue:** Applied Imagery Pattern Recognition Workshop (AIPR 2025) — *to appear in Springer proceedings*  
+🏆 **Best Student Paper — AIPR 2025 (Oral)**  
 📄 **Preprint (author-created):** [paper/preprint.pdf](paper/preprint.pdf)
 
 ---
@@ -42,7 +43,7 @@ Comparison against baseline methods showing improved consistency.
 
 ---
 
-## Hero Result
+## Result
 Example of localized, consistent multiview editing result.
 
 ![Hero Result](docs/figures/fig17_result.png)
