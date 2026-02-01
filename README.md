@@ -10,30 +10,49 @@
 ---
 
 ## What this work solves
-Multiview image editing (wide-baseline pairs) often fails due to **cross-view inconsistency** and poor **localized control**. This work introduces a lightweight, training-free pipeline that improves consistency while keeping edits localized.
-
-## Key contributions
-- **Mask-guided partial diffusion** to localize edits  
-- **Training-free cross-view feature sharing** to improve consistency across viewpoints
+Multiview image editing (wide-baseline pairs) often fails due to **cross-view inconsistency** and poor **localized control**.  
+This work introduces a lightweight, training-free pipeline that improves consistency while keeping edits localized.
 
 ---
 
-## Figures (highlights)
-(Selected qualitative and method figures from the paper.)
+## Key contributions
+- **Mask-guided partial diffusion** to localize edits  
+- **Training-free cross-view feature sharing** to improve consistency across viewpoints  
 
-- Method overview — `docs/figures/fig10_method.png`  
-- Feature sharing — `docs/figures/fig12_feature_sharing.png`  
-- Qualitative comparisons — `docs/figures/fig15_comparison.png`, `docs/figures/fig16_comparison.png`  
-- Hero result — `docs/figures/fig17_result.png`
+---
+
+## Method Overview
+High-level pipeline of the proposed imgs2imgs framework.
+
+![Method Overview](docs/figures/fig10_method.png)
+
+---
+
+## Cross-view Feature Sharing
+Two-pass inference strategy used to transfer structural features between views.
+
+![Feature Sharing](docs/figures/fig12_feature_sharing.png)
+
+---
+
+## Qualitative Comparisons
+Comparison against baseline methods showing improved consistency.
+
+![Comparison 1](docs/figures/fig15_comparison.png)  
+![Comparison 2](docs/figures/fig16_comparison.png)
+
+---
+
+## Hero Result
+Example of localized, consistent multiview editing result.
+
+![Hero Result](docs/figures/fig17_result.png)
 
 ---
 
 ## Citation
-```bibtex
-@inproceedings{gallai2025imgs2imgs,
-  title     = {imgs2imgs: Improving Visual Consistency in Multiview Image Editing},
-  author    = {Gallai, Mohamed and Stylianou, Abby},
-  booktitle = {Applied Imagery Pattern Recognition Workshop (AIPR)},
-  year      = {2025},
-  note      = {To appear in Springer proceedings}
-}
+
+imgs2imgs: Improving Visual Consistency in Multiview Image Editing  
+Mohamed Gallai, Abby Stylianou  
+Applied Imagery Pattern Recognition Workshop (AIPR), 2025  
+To appear in Springer proceedings
