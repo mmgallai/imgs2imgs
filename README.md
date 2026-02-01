@@ -1,7 +1,6 @@
 # imgs2imgs: Improving Visual Consistency in Multiview Image Editing
 
-🏆 **Best Student Paper — AIPR 2025 (Oral)**  
-![Award](docs/awards/aipr2025_best_student_paper.jpg)
+Training-free multiview editing with localized control + cross-view consistency.
 
 **Authors:** Mohamed Gallai, Abby Stylianou  
 **Venue:** Applied Imagery Pattern Recognition Workshop (AIPR 2025) — *to appear in Springer proceedings*  
@@ -47,6 +46,11 @@ Comparison against baseline methods showing improved consistency.
 Example of localized, consistent multiview editing result.
 
 ![Hero Result](docs/figures/fig17_result.png)
+
+---
+
+🏆 **Best Student Paper — AIPR 2025 (Oral)**  
+![Award](docs/awards/aipr2025_best_student_paper.jpg)
 
 ---
 
